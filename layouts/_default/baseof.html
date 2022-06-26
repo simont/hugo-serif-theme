@@ -31,6 +31,7 @@
     <meta name="twitter:card" content="summary"/>
     {{ if .Site.Params.seo.meta_twitter_site }}<meta name="twitter:site" content="{{ .Site.Params.seo.meta_twitter_site }}"/>{{ end }}
     {{ if .Site.Params.seo.meta_twitter_creator }}<meta name="twitter:creator" content="{{ .Site.Params.seo.meta_twitter_creator }}"/>{{ end }}
+    {{ if .Params.smart_app_banner_app_id }}<meta name="apple-itunes-app" content="app-id={{ .Params.smart_app_banner_app_id }}">{{ end }}
   {{ end }}
 
 </head>
